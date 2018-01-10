@@ -1,0 +1,121 @@
+ body
+{
+background-color: #404040;
+font-family:Verdana;
+font-size: 20px;
+color: white;
+font-family: 'Jura', sans-serif;
+}
+
+h1
+{
+font-size: 52px;	
+color:white;
+}
+
+/*Nieodwiedzony link*/
+a:link
+{
+	color:Yellow;
+}
+
+/*Odwiedzony link*/
+a:visited
+{
+	color:Yellow;
+}
+
+/*link po najechaniu kursorem */
+a:hover
+{
+	color:Blue;
+}
+
+#container
+{
+width: 1400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#logo
+{
+	background-color:  #404040;
+	text-align: center;
+	padding: 15px;
+}
+
+#nav
+{
+	float: left;
+	background-color: #404040;
+	color: white;
+	width: 200px;
+	min-height: 620px;
+	padding: 15px;
+	a:hover
+	{
+	color:Yellow;	
+	}
+}
+
+#content
+{
+	float: left;
+	padding: 20px;
+	width: 910px;
+	text-align:center;
+}
+
+#ad
+{
+	float: left;
+	width: 200px;
+	min-height: 620px;
+	padding: 10px;
+	background-color: #404040;
+	text-align: center;
+}
+
+#footer
+{
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+#zegar
+{
+	color: white;
+}
+
+.tile1
+{
+	margin: 10px;
+	width: 200px;
+	height: 40px;
+	background-color: #grey;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+.tile1:hover
+{
+	background-color: #202020;
+}
+
+.tile1link:hover
+{
+color: yellow;
+text-decoration: underline;
+}
+
+a.tile1link
+{
+	text-decoration: none;
+}
